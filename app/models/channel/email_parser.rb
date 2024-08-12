@@ -90,7 +90,7 @@ class Channel::EmailParser
     sender_attributes = self.class.sender_attributes(headers)
 
     if sender_attributes.blank?
-      raise Exceptions::MissingAttribute.new('email', __("Could not parse any sender attribute from the email."))
+      raise Exceptions::MissingAttribute.new('email', __('Could not parse any sender attribute from the email.'))
     end
 
     message_attributes = [

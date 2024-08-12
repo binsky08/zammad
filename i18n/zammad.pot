@@ -3280,6 +3280,10 @@ msgstr ""
 msgid "Could not load the two-factor authentication configuration for this user."
 msgstr ""
 
+#: app/models/channel/email_parser.rb:32
+msgid "Could not parse any sender attribute from the email."
+msgstr ""
+
 #: app/assets/javascripts/app/controllers/user/manage_two_factor.coffee:135
 msgid "Could not remove all two-factor authentication methods for this user."
 msgstr ""
@@ -9671,7 +9675,7 @@ msgstr ""
 msgid "No webhook available, please create a new one or activate an existing one at \"Manage > Webhook\""
 msgstr ""
 
-#: app/models/channel/email_parser.rb:108
+#: app/models/channel/email_parser.rb:114
 msgid "No x-zammad-session-user-id, no sender set!"
 msgstr ""
 
